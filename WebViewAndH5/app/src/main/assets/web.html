@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" charset="UTF-8"/>
+
+    <script type="text/javascript">
+          var s = '我来自Js方法';
+            function callback(param){
+                 document.getElementById("textShow").innerHTML = (param);
+
+            }
+
+    </script>
+
+</head>
+
+<body>
+
+<h4 id="textShow" align="center">调用结果</h4>
+
+<input type="button"  value="我是H5的Button"
+       onclick="window.android.JsToJavaInterface('我来自H5')"/>
+
+</body>
+
+</html>
